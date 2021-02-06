@@ -15,6 +15,10 @@ def info():
 
 @app.route('/puppy/<name>')
 def puppy(name):
+    if name[-1] != "y":
+        name = name+"y"
+    else:
+        name = name[:-1]+"iful"
     return "<h1>This is a page for {}</h1>".format(name)
 
 
