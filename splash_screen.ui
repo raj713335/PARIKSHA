@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>SplashScreen</class>
+ <widget class="QMainWindow" name="SplashScreen">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -31,11 +31,11 @@
      <number>10</number>
     </property>
     <item>
-     <widget class="QFrame" name="DropShadowFame">
+     <widget class="QFrame" name="dropShadowFrame">
       <property name="styleSheet">
-       <string notr="true">QFrame{
-	background-color:rgb(56, 58, 89);
-	color:rgb(220,220,220);
+       <string notr="true">QFrame {	
+	background-color: rgb(56, 58, 89);	
+	color: rgb(220, 220, 220);
 	border-radius: 10px;
 }</string>
       </property>
@@ -45,13 +45,13 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="label">
+      <widget class="QLabel" name="label_title">
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>60</y>
+         <y>90</y>
          <width>661</width>
-         <height>81</height>
+         <height>61</height>
         </rect>
        </property>
        <property name="font">
@@ -64,17 +64,17 @@
         <string notr="true">color: rgb(254, 121, 199);</string>
        </property>
        <property name="text">
-        <string>&lt;strong&gt;PARIKSHA&lt;/strong&gt;</string>
+        <string>&lt;strong&gt;YOUR&lt;/strong&gt; APP NAME</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QLabel" name="label_2">
+      <widget class="QLabel" name="label_description">
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>130</y>
+         <y>150</y>
          <width>661</width>
          <height>31</height>
         </rect>
@@ -89,7 +89,7 @@
         <string notr="true">color: rgb(98, 114, 164);</string>
        </property>
        <property name="text">
-        <string>&lt;strong&gt;Distant Offline Examination System&lt;/Strong&gt;</string>
+        <string>&lt;strong&gt;APP&lt;/strong&gt; DESCRIPTION</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -98,37 +98,37 @@
       <widget class="QProgressBar" name="progressBar">
        <property name="geometry">
         <rect>
-         <x>30</x>
+         <x>50</x>
          <y>280</y>
-         <width>601</width>
-         <height>21</height>
+         <width>561</width>
+         <height>23</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">QProgressBar{
-	background-color: rgb(98,114,164);
-	color: rgb(200,200,200);
+        <string notr="true">QProgressBar {
+	
+	background-color: rgb(98, 114, 164);
+	color: rgb(200, 200, 200);
 	border-style: none;
 	border-radius: 10px;
-	text-align:center;
+	text-align: center;
 }
-
 QProgressBar::chunk{
 	border-radius: 10px;
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.511364,x2:1,y2:0.523,stop:0 rgba(254,121,199,255), stop: 1 rgba(170,85,255,255));
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511364, x2:1, y2:0.523, stop:0 rgba(254, 121, 199, 255), stop:1 rgba(170, 85, 255, 255));
 }</string>
        </property>
        <property name="value">
         <number>24</number>
        </property>
       </widget>
-      <widget class="QLabel" name="label_3">
+      <widget class="QLabel" name="label_loading">
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>300</y>
+         <y>320</y>
          <width>661</width>
-         <height>41</height>
+         <height>21</height>
         </rect>
        </property>
        <property name="font">
@@ -147,26 +147,26 @@ QProgressBar::chunk{
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QLabel" name="label_4">
+      <widget class="QLabel" name="label_credits">
        <property name="geometry">
         <rect>
-         <x>10</x>
-         <y>340</y>
-         <width>641</width>
-         <height>41</height>
+         <x>20</x>
+         <y>350</y>
+         <width>621</width>
+         <height>21</height>
         </rect>
        </property>
        <property name="font">
         <font>
          <family>Segoe UI</family>
-         <pointsize>11</pointsize>
+         <pointsize>10</pointsize>
         </font>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(98, 114, 164);</string>
        </property>
        <property name="text">
-        <string>&lt;strong&gt;Created :&lt;/strong&gt; Arnab Das &lt;strong&gt; For&lt;/strong&gt; Hack 2021</string>
+        <string>&lt;strong&gt;Created&lt;/strong&gt;: Wanderson M. Pimenta</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
