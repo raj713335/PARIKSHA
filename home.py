@@ -346,7 +346,7 @@ def main():
 
             def classs(self):
                 window_user_login1.destroy()
-                second(user_key=user_key,job="EXAM ENVIRONMENT")
+                second(user_key=user_key,job="COVID ENVIRONMENT")
 
             def hostel(self):
                 window_user_login1.destroy()
@@ -521,6 +521,11 @@ def main():
 
                     from ENGINES.AI_Washroom_Corridor_Environment_Monitoring import AI_Washroom_Corridor_ENVIRONMENT
                     AI_Washroom_Corridor_ENVIRONMENT.corridor_enviornment(path=str(window_user_login2.filename),gender=str(self.txtfld1.get()))
+
+                if job=="COVID ENVIRONMENT":
+
+                    from ENGINES.AI_COVID_SOCIAL_DISTANCING_ANALYSER import mainc
+                    #AI_Washroom_Corridor_ENVIRONMENT.corridor_enviornment(path=str(window_user_login2.filename),gender=str(self.txtfld1.get()))
 
             def run_live(self):
 
