@@ -1,10 +1,10 @@
-# INTELEGIX (hack-ed-v1.0) Theme 1 Intelligent Video Monitoring :cinema:
+# Hack 2021 Theme 1 Intelligent Video Monitoring :cinema:
  
  
  <p align="center">
     <img src="README/Cover.png" width="1400">
     <br>
-    <sup><a href="https://www.hackerearth.com/challenges/hackathon/hack-ed-v10/" target="_blank">hack-ed-v10</a></sup>
+    <sup><a href="https://hack2021.hackerearth.com/" target="_blank">HACK 2021</a></sup>
 </p>
 
 
