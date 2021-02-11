@@ -15,3 +15,5 @@ imutils==0.5.3
 geocoder==1.38.1
 geolocation-python==0.2.2
 cvlib==0.2.5
+Keras==2.4.3
+deepface==0.0.40
