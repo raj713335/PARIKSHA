@@ -100,8 +100,8 @@ def main():
         rootx.after(500, lambda: rootx.destroy())  # Destroy the widget after 0.5 seconds
         labelx.mainloop()
 
-    for i in range(0, 1):
-        loading()
+    # for i in range(0, 1):
+    #     loading()
 
     def user_login_over_ride():
 

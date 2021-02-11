@@ -298,3 +298,4 @@ def mainc():
     cv2.destroyAllWindows()
     vs.stop()
 
+mainc()
