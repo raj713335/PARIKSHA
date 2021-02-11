@@ -16,15 +16,15 @@ def mainc():
     width = 0
     height = 0
 
-    labelsPath = "Model/coco.names"
+    labelsPath = "Data/Models/coco.names"
     LABELS = open(labelsPath).read().strip().split("\n")
 
     np.random.seed(42)
     COLORS = np.random.randint(0, 255, size=(len(LABELS), 3),
                                dtype="uint8")
 
-    weightsPath = "Model/yolov3.weights"
-    configPath = "Model/yolov3.cfg"
+    weightsPath = "Data/Models/yolov3.weights"
+    configPath = "Data/Models/yolov3.cfg"
 
     net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
 
