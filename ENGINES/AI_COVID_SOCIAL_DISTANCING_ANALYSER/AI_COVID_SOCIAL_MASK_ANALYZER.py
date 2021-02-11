@@ -11,7 +11,7 @@ import os
 import math
 
 
-def mainc():
+def AI_COVID():
     scale_percent = 20  # percent of original size
     width = 0
     height = 0
@@ -108,11 +108,11 @@ def mainc():
 
     confidence = 0.4
 
-    face_detector_caffe = base_dir + '/face_detector/res10_300x300_ssd_iter_140000.caffemodel'
+    face_detector_caffe = 'Data/Models/res10_300x300_ssd_iter_140000.caffemodel'
 
     # load our serialized face detector model from disk
     print("[INFO] loading face detector model...")
-    prototxtPath = base_dir + '/face_detector/deploy.prototxt'
+    prototxtPath = 'Data/Models/deploy.prototxt'
     weightsPath = face_detector_caffe
     faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
     # load the face mask detector model from disk
@@ -298,4 +298,3 @@ def mainc():
     cv2.destroyAllWindows()
     vs.stop()
 
-mainc()

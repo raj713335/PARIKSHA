@@ -237,7 +237,7 @@ def main():
 
 
 
-                self.b1 = ttk.Button(win, text='Class Environment', width=20,command=self.classs)
+                self.b1 = ttk.Button(win, text='COVID Environment', width=20,command=self.classs)
                 self.b1.place(x=15, y=275, width=175, height=70)
 
                 self.b2 = ttk.Button(win, text='Hostel Envionment', width=20,command=self.hostel)
@@ -524,7 +524,8 @@ def main():
 
                 if job=="COVID ENVIRONMENT":
 
-                    from ENGINES.AI_COVID_SOCIAL_DISTANCING_ANALYSER import mainc
+                    from ENGINES.AI_COVID_SOCIAL_DISTANCING_ANALYSER import AI_COVID_SOCIAL_MASK_ANALYZER
+                    AI_COVID_SOCIAL_MASK_ANALYZER.AI_COVID()
                     #AI_Washroom_Corridor_ENVIRONMENT.corridor_enviornment(path=str(window_user_login2.filename),gender=str(self.txtfld1.get()))
 
             def run_live(self):
@@ -549,6 +550,11 @@ def main():
 
                     from ENGINES.AI_Washroom_Corridor_Environment_Monitoring import AI_Washroom_Corridor_ENVIRONMENT
                     AI_Washroom_Corridor_ENVIRONMENT.corridor_enviornment(path=0,gender=str(self.txtfld1.get()))
+
+                if job=="COVID ENVIRONMENT":
+
+                    from ENGINES.AI_COVID_SOCIAL_DISTANCING_ANALYSER import AI_COVID_SOCIAL_MASK_ANALYZER
+                    AI_COVID_SOCIAL_MASK_ANALYZER.AI_COVID()
 
 
 
