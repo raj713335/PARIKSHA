@@ -103,7 +103,7 @@ def AI_COVID():
     print(base_dir)
     dataset_path = base_dir + '/dataset'
     accuracy_plot_dir = base_dir + '/Model'
-    model_store_dir = base_dir + '/Model/mask_detector.model'
+    model_store_dir = 'Data/Models/mask_detector.model'
     example = base_dir + '/Image/1.jpg'
 
     confidence = 0.4
