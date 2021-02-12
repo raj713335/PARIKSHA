@@ -20,6 +20,14 @@ After Videos are analysed using Machine & Deep Learning, it saves and sends data
 
 This Application was created for Participating in HackerEarth Challenges HACK 2021 <a href="https://hack2021.hackerearth.com/">HACK 2021</a>
 
+
+ <p align="center">
+    <img src="README/strartx.png" width="1400">
+    <br>
+    <sup><a href="https://hack2021.hackerearth.com/" target="_blank">HACK 2021</a></sup>
+</p> 
+
+
 ## THEME 1 (Intelligent Video Monitoring) :camera_flash:
 
 Develop a layer of analysis over video feed. It should be focussed around applications in a school or a classroom environment.
