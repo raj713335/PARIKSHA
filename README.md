@@ -130,9 +130,66 @@ Earlier, Dlib's facial landmarks model was used but it did not give good results
 </p>
 
 
+## AI COVID MONITORING
+
+It is a Combined Computer Vision and Machine Learning Application that recognises a person and checks if he is maintaining social distancing or not , and also checks if he is wearing a mask or not simultaneously. 
+
+If any of the two above criteria fails then its alerts a user concerned with a warning sound , so the person violating can take necessary steps to minimise the spread of the virus. 
+
+
+It performs two primary functions using multi threading , OpenCV and ML
+
+
+      1.  EYEXA uses yolov3 model to track a person and then does various internal computations to check all the person in the frame
+    are maintaining a proper social distancing norms or not . and display the number of person violating the social distancing norms.
+      
+      2.  EYEXA uses an custom trained model based on MobileNetV2 to train on images of person wearing/not_wearing a mask , and 
+    predict the person in the camera feed is wearing a mask or not . It also uses a res10_300x300_sad_iter_140000.caffemodel to focus
+    on person face during the prediction.
+
+
+
+
+
+### MASK DETECTION RESULT
+
+<p align="center">
+    <img src="README/mask_detection.gif" width="800">
+    
+</p>
+
+
+
+
+### SAMPLE RESULT
+
+<p align="center">
+    <img src="DEMO/sample.gif" width="400">
+   
+</p>
+
+
+<p align="center">
+    <img src="README/7.gif" width="400">
+</p>
+
+
+
+
+
+## SAMPLE IMAGES
+<p align="center">
+    <img src="DEMO/1.png" width="400">
+    <img src="DEMO/2.png" width="400">
+    <img src="DEMO/3.png" width="400">
+    <img src="DEMO/4.png" width="400">
+    <br>
+    <sup>1.Social Distancing Violation but Mask are on (Left) 2.Social Distancing Violation and Mask are off(Right) 3 and 4. All Ok (Down Left/Right)</sup>
+</p>
+
+
 
 ## AI DRIVER MONITORING SYSTEM :oncoming_bus:
-
 
 Project to monitor driver behavior  while driving. If the application detects driver rules violation done by driver then it sends a warning/image to a Telegram/Whats App/Email through REST API.
 
