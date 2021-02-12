@@ -17,3 +17,4 @@ geolocation-python==0.2.2
 cvlib==0.2.5
 Keras==2.4.3
 deepface==0.0.40
+pygame==2.0.0
