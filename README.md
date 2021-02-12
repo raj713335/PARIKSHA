@@ -11,10 +11,11 @@
 
 A cross-platform desktop application for monitoring and analyzing from a live camera feed or videos files to analyze data for
 
-    1.  Exam environment: Monitor if students are participating in any malpractices during the exam.     
-    2.  School Buses: Driver drowsy, a driver talking on a cellphone while driving, driver/conductor smoking in the bus, etc
-    3.  Hostel environment: Students outside dorms after designated timings, Unauthorized entry in campus, etc.
-    4.  Corridor environment (outside classroom): Gents entering ladies' washrooms and vice versa.
+    1.  Exam Environment: Monitor if students are participating in any malpractices during the exam.  
+    2.  Covid Environment: Monitor if all person are wearing mask and following social distancing protocol.
+    3.  School Buses: Driver drowsy, a driver talking on a cellphone while driving, driver/conductor smoking in the bus, etc
+    4.  Hostel Environment: Students outside dorms after designated timings, Unauthorized entry in campus, etc.
+    5.  Corridor Environment (outside classroom): Gents entering ladies' washrooms and vice versa.
     
 After Videos are analysed using Machine & Deep Learning, it saves and sends data via Email, What's App Bots, and Telegram Bots via API Tokens/keys.
 
@@ -170,7 +171,7 @@ It performs two primary functions using multi threading , OpenCV and ML
 ### SAMPLE RESULT
 
 <p align="center">
-    <img src="DEMO/sample.gif" width="400">
+    <img src="README/sample.gif" width="400">
    
 </p>
 
@@ -185,10 +186,10 @@ It performs two primary functions using multi threading , OpenCV and ML
 
 ## SAMPLE IMAGES
 <p align="center">
-    <img src="DEMO/1.png" width="400">
-    <img src="DEMO/2.png" width="400">
-    <img src="DEMO/3.png" width="400">
-    <img src="DEMO/4.png" width="400">
+    <img src="README/1.png" width="400">
+    <img src="README/2.png" width="400">
+    <img src="README/3.png" width="400">
+    <img src="README/4.png" width="400">
     <br>
     <sup>1.Social Distancing Violation but Mask are on (Left) 2.Social Distancing Violation and Mask are off(Right) 3 and 4. All Ok (Down Left/Right)</sup>
 </p>
