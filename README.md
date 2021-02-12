@@ -283,7 +283,9 @@ $ pip install imutils==0.5.3
 $ pip install deepface==0.0.40
 $ pip install keras==2.4.3
 $ pip install cvlib==0.2.5
-$ pip install pyinstaller 
+$ pip install PyQt5==5.15.2
+$ pip install pyside2==5.15.2
+$ pip install pyinstaller
 ```
 
 - Run the app
