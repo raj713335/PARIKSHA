@@ -67,9 +67,12 @@ class SplashScreen(QMainWindow):
             # SHOW MAIN WINDOW
             # ADD FURTHER
 
+            from home import main
+
+
             # CLOSE SPLASH SCREEN
             self.close()
-
+            main()
         # INCREASE COUNTER
         counter += 1
 
