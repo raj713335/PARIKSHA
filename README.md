@@ -1,4 +1,4 @@
-# Hack 2021 Theme 1 Intelligent Video Monitoring :cinema:
+# Hack 2021 Theme The Wildcard
  
  
  <p align="center">
