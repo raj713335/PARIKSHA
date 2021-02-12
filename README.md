@@ -18,7 +18,7 @@ A cross-platform desktop application for monitoring and analyzing from a live ca
     
 After Videos are analysed using Machine & Deep Learning, it saves and sends data via Email, What's App Bots, and Telegram Bots via API Tokens/keys.
 
-This Application was created for Participating in HackerEarth Challenges hack-ed-v10 for K12 Techno Services. <a href="https://www.hackerearth.com/challenges/hackathon/hack-ed-v10/">Hack-ED V1.0</a>
+This Application was created for Participating in HackerEarth Challenges HACK 2021 <a href="https://hack2021.hackerearth.com/">HACK 2021</a>
 
 ## THEME 1 (Intelligent Video Monitoring) :camera_flash:
 
