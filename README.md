@@ -319,7 +319,7 @@ Head Pose Estimation | 8.5
 - Clone the repo and cd into the directory
 ```sh
 $ git clone https://github.com/raj713335/PARIKSHA.git
-$ cd INTELEGIX
+$ cd PARIKSHA
 ```
 - Delete the current Data folder inside PARIKSHA folder and then download the Data.zip from the given url and extract and copy the data folder in PARIKSHA folder
 
