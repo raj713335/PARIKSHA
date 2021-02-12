@@ -77,8 +77,6 @@ Project to create an automated proctoring system where the user can be monitored
 
 <p align="center">
     <img src="README/online_exam.gif" width="1200">
-    <br>
-    <sup><a href="https://github.com/raj713335/AI_ONLINE_EXAM_PROCTORING" target="_blank"><strong>AI ONLINE EXAM PROCTORING</strong></a></sup>
 </p>
 
 ### Vision Statement
@@ -203,8 +201,6 @@ Project to monitor driver behavior  while driving. If the application detects dr
 
 <p align="center">
     <img src="README/bus_environment.gif" width="1200">
-    <br>
-    <sup><a href="https://github.com/raj713335/AI_DRIVER_MONITORING_SYSTEM" target="_blank"><strong>AI DRIVER MONITORING SYSTEM</strong></a></sup>
 </p>
 
 
@@ -313,10 +309,10 @@ Head Pose Estimation | 8.5
 
 - Clone the repo and cd into the directory
 ```sh
-$ git clone https://github.com/raj713335/INTELEGIX.git
+$ git clone https://github.com/raj713335/PARIKSHA.git
 $ cd INTELEGIX
 ```
-- Delete the current Data folder inside INTELEGIX folder and then download the Data.zip from the given url and extract and copy the data folder in INTELEGIX folder
+- Delete the current Data folder inside PARIKSHA folder and then download the Data.zip from the given url and extract and copy the data folder in PARIKSHA folder
 
 ```sh
 $ wget https://drive.google.com/uc?id=1YnA1wmaBoD3MPLEUWmZoUsvCsySB5Ng2&export=download
@@ -348,7 +344,7 @@ $ pip install pyinstaller
 - Run the app
 
 ```sh
-$ python home.py
+$ python main.py
 ```
 
 
