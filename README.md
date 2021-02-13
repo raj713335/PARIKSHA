@@ -172,15 +172,8 @@ It performs two primary functions using multi threading , OpenCV and ML
 
 <p align="center">
     <img src="README/sample.gif" width="400">
-   
-</p>
-
-
-<p align="center">
     <img src="README/7.gif" width="400">
 </p>
-
-
 
 
 
