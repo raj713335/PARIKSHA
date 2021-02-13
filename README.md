@@ -32,9 +32,11 @@ This Application was created for Participating in HackerEarth Challenges HACK 20
 ## THEME (The WildCard) :camera_flash:
     The Wildcard
 
-    Can’t find a suitable theme for your innovative solution? Do you have an idea that is completely out of the box?
+    Can’t find a suitable theme for your innovative solution? 
+    Do you have an idea that is completely out of the box?
 
-    If so, the Wildcard challenge is for you! Use technology with your developer skills to create a unique and useful solution!
+    If so, the Wildcard challenge is for you! 
+    Use technology with your developer skills to create a unique and useful solution!
     
 # PARKIKSHA WORKING SAMPLE
 
