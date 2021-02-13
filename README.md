@@ -29,39 +29,14 @@ This Application was created for Participating in HackerEarth Challenges HACK 20
 </p> 
 
 
-## THEME 1 (Intelligent Video Monitoring) :camera_flash:
+## THEME (The WildCard) :camera_flash:
+    The Wildcard
 
-Develop a layer of analysis over video feed. It should be focussed around applications in a school or a classroom environment.
+    Can’t find a suitable theme for your innovative solution? Do you have an idea that is completely out of the box?
 
-    Minimum Requirements
+    If so, the Wildcard challenge is for you! Use technology with your developer skills to create a unique and useful solution!
     
-    Develop a layer of analysis over video feed. It should be focussed around applications in a school or a classroom environment.
-
-    Some examples-
-    
-        1.  Classroom environment: How much students are participating in discussions, how is the discipline in the class etc
-        2.  School environment (outside classroom): Discipline in corridors and open areas, Gents entering ladies washrooms and vice versa, Detecting vandalism, Detecting medical emergencies etc
-        3.  Hostel environment: Students outside dorms after designated timings, Unauthorized entry in campus etc
-        4.  School Buses: Driver drowsy, driver talking on cellphone while driving, driver/conductor smoking in the bus etc
-    
-    The analysis can be on live feed triggering alerts in real-time or on recorded feed for consolidated analysis
-    
-    On Front End:
-    
-        Build an interface to upload a video for analysis
-        Display results in a presentable manner for the uploaded video
-        Display results of previously uploaded videos
-        Send Data to Telegram/Whats App through API
-    
-    On Back end:   
-    
-        Build the algorithm to analyze the video and identify the event(s) of your choice
-        Store the clip showing the event occurrence and capture the relevant details
-        The data sharing between Frontend and Backend should be in JSON format rendered over REST APIs.
-        Zip all your Source Code, Screenshots, Deployment Instructions/Readme and Upload
-    
-    
-# INTELEGIX WORKING SAMPLE
+# PARKIKSHA WORKING SAMPLE
 
 - For Video Demostration refer to the YouTube link <a href="https://www.youtube.com/watch?v=lWDtOs_ghmg">here.</a>
 
